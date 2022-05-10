@@ -1,1 +1,0 @@
-# baranau1029.github.io
