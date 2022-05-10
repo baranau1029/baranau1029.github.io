@@ -310,11 +310,6 @@ class Portfolio extends React.Component {
                 <p className='subtitle-a'>Check Out Few Of My Selected Projects.</p>
                 <div className='line-mf'></div>
               </div>
-              {/* <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center'  }} >
-                    <div>All</div>
-                    <div>Website</div>
-                    <div>Native Apps</div>
-                  </div> */}
             </div>
           </div>
 
