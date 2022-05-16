@@ -27,7 +27,7 @@ class Intro extends React.Component {
                   />
                 </strong>
               </p>
-              <p className='pt-3'>
+              {/* <p className='pt-3'>
                 <a
                   className='btn btn-primary btn js-scroll px-4'
                   style={{ cursor: 'pointer' }}
@@ -37,14 +37,7 @@ class Intro extends React.Component {
                 >
                   View My Resume <i className='fa fa-download' aria-hidden='true'></i>
                 </a>
-                {/* <a 
-                      className="btn btn-primary btn js-scroll px-4 ml-5" 
-                      style={{ cursor: "pointer" }}
-                      href="#work"
-                    >
-                      View My Work
-                    </a> */}
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
