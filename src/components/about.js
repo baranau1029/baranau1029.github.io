@@ -8,16 +8,16 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: 'ReactJS_skill', content: 'ReactJS', porcentage: '90%', value: '90', icon: <FaReact /> },
-        { id: 'ReactNative_skill', content: 'React Native', porcentage: '90%', value: '90', icon: <FaReact /> },
-        { id: 'Redux_skill', content: 'Redux', porcentage: '85%', value: '85', icon: <SiRedux /> },
-        { id: 'Angular_skill', content: 'Angular', porcentage: '85%', value: '85', icon: <SiAngular /> },
-        { id: 'TypeScript_skill', content: 'TypeScript', porcentage: '85%', value: '85', icon: <SiTypescript /> },
-        { id: 'JavaScript_skill', content: 'JavaScript', porcentage: '80%', value: '80', icon: <SiJavascript /> },
+        { id: 'ReactJS_skill', content: 'ReactJS', porcentage: '95%', value: '95', icon: <FaReact /> },
+        { id: 'ReactNative_skill', content: 'React Native', porcentage: '95%', value: '95', icon: <FaReact /> },
+        { id: 'Redux_skill', content: 'Redux', porcentage: '90%', value: '90', icon: <SiRedux /> },
+        { id: 'Angular_skill', content: 'Angular', porcentage: '90%', value: '90', icon: <SiAngular /> },
+        { id: 'TypeScript_skill', content: 'TypeScript', porcentage: '90%', value: '90', icon: <SiTypescript /> },
+        { id: 'JavaScript_skill', content: 'JavaScript', porcentage: '90%', value: '90', icon: <SiJavascript /> },
         { id: 'HTML_CSS_skill', content: 'HTML / CSS', porcentage: '85%', value: '85', icon: <FaHtml5 /> },
         { id: 'NodeJS_skill', content: 'NodeJS / ExpressJS', porcentage: '75%', value: '75', icon: <FaNode /> },
-        { id: 'Firebase_skill', content: 'Firebase', porcentage: '85%', value: '85', icon: <SiFirebase /> },
-        { id: 'Flutter_skill', content: 'Flutter', porcentage: '60%', value: '60', icon: <SiFlutter /> },
+        { id: 'Firebase_skill', content: 'Firebase', porcentage: '90%', value: '90', icon: <SiFirebase /> },
+        { id: 'Flutter_skill', content: 'Flutter', porcentage: '70%', value: '70', icon: <SiFlutter /> },
       ],
       about_me: [
         {
