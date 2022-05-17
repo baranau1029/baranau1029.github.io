@@ -1205,12 +1205,13 @@ ul.nav.nav-tabs{
 .nav-tabs .nav-link{
   border-radius: 30px;
   cursor: pointer;
+  color: ${({ theme }) => theme.textDark} !important;
 }
 
 .nav-tabs .nav-link.active{
   background-color: #0078ff;
   color: #fff;
-  border: none;
+  border: 1px solid ${({ theme }) => theme.primaryBlueColor};
 }
 
 .nav-tabs .nav-link.active:hover{
@@ -1220,7 +1221,6 @@ ul.nav.nav-tabs{
 
 .nav-tabs .nav-link:hover{
   color: ${({ theme }) => theme.navLinkHover} !important;
-  border: 1px solid ${({ theme }) => theme.primaryBlueColor};
 }
 
 

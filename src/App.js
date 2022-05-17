@@ -31,7 +31,7 @@ import { lightTheme, darkTheme } from './theme';
 import { ThemeProvider } from 'styled-components';
 
 const App = () => {
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
 
   const toggleTheme = () => {
     if (theme === 'light') {
