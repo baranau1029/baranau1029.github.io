@@ -64,7 +64,6 @@ class About extends React.Component {
 
                   <div className='col-md-6'>
                     <div className='skill-mf'>
-                      {/* <p className="title-s">Skill</p> */}
                       <div className='title-box-2'>
                         <h5 className='title-skill'>My Skills</h5>
                       </div>

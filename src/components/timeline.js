@@ -8,6 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 class Timeline extends Component {
   constructor() {
     super();
+
     this.state = {
       work_list: [
         {

@@ -26,43 +26,36 @@ import BackToTop from './components/back-top.js';
 import Preloader from './components/preloader.js';
 import Timeline from './components/timeline.js';
 
-
-
 // ================================
 import { lightTheme, darkTheme } from './theme';
 import { ThemeProvider } from 'styled-components';
 
-
-
-
-
 const App = () => {
-    const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
-    const toggleTheme = () => {
-        if (theme === 'light') {
-            setTheme('dark');
-            localStorage.setItem('theme', 'dark');
-        } else {
-            setTheme('light');
-            localStorage.setItem('theme', 'light');
-        }
-    }
-    return(
-        <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme} >
-            <>
-                <GlobalStyles />
-                <Navbar toggleTheme={toggleTheme} currTheme={theme} />
-                <Intro />
-                <About />
-                <Portfolio />
-                <Timeline />
-                <Contact />
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
 
-                <BackToTop />
-                <Preloader />
-            </>
-        </ThemeProvider>
-    );
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      setTheme('light');
+      localStorage.setItem('theme', 'light');
+    }
+  };
+
+  return (
+    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+      <GlobalStyles />
+      <Navbar toggleTheme={toggleTheme} currTheme={theme} />
+      <Intro />
+      <About />
+      <Portfolio />
+      <Timeline />
+      <Contact />
+      <BackToTop />
+      <Preloader />
+    </ThemeProvider>
+  );
 };
 
 export default App;

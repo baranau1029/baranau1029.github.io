@@ -23,22 +23,6 @@ import medeasy6 from '../img/medeasy/order-details.PNG';
 import chatapp from '../img/chat-app/1.PNG';
 import chatapp1 from '../img/chat-app/2.PNG';
 
-//import predimage
-import predimage from '../img/predimage/Capture.PNG';
-import predimage1 from '../img/predimage/screen1.PNG';
-import predimage2 from '../img/predimage/screen2.PNG';
-import predimage3 from '../img/predimage/screen4.PNG';
-
-//import spam message
-import spam from '../img/spam-msg/spam1.PNG';
-import spam1 from '../img/spam-msg/spam2.PNG';
-import spam2 from '../img/spam-msg/spam3.PNG';
-
-//import movie recommender system
-import movie from '../img/movie-recommender/movie1.PNG';
-import movie1 from '../img/movie-recommender/movie2.PNG';
-import movie2 from '../img/movie-recommender/movie3.PNG';
-
 // import shop app
 import shopapp from '../img/shop-app/2.png';
 import shopapp1 from '../img/shop-app/1.png';
@@ -70,12 +54,6 @@ import chatify7 from '../img/chatify/9.jpg';
 
 // ----------------WebP Images----------------
 
-//import predimage
-import predimageWebP from '../img/predimage/Capture.webp';
-import predimageWebP1 from '../img/predimage/screen1.webp';
-import predimageWebP2 from '../img/predimage/screen2.webp';
-import predimageWebP3 from '../img/predimage/screen4.webp';
-
 // import chatapp
 import chatappWebP from '../img/chat-app/1.webp';
 import chatappWebP1 from '../img/chat-app/2.webp';
@@ -88,16 +66,6 @@ import medeasyWebP3 from '../img/medeasy/home.webp';
 import medeasyWebP4 from '../img/medeasy/cart.webp';
 import medeasyWebP5 from '../img/medeasy/orders.webp';
 import medeasyWebP6 from '../img/medeasy/order-details.webp';
-
-//import movie recommender system
-import movieWebP from '../img/movie-recommender/movie1.webp';
-import movieWebP1 from '../img/movie-recommender/movie2.webp';
-import movieWebP2 from '../img/movie-recommender/movie3.webp';
-
-//import spam message
-import spamWebP from '../img/spam-msg/spam1.webp';
-import spamWebP1 from '../img/spam-msg/spam2.webp';
-import spamWebP2 from '../img/spam-msg/spam3.webp';
 
 //import socialApp
 import socialAppWebP from '../img/socialapp/home.webp';
@@ -248,54 +216,6 @@ class Portfolio extends React.Component {
           dataLightbox: 'gallery-chatapp',
           type: 'web',
         },
-        // {
-        //   title: 'predImage - model trainer ',
-        //   githubLink: 'https://github.com/shahshubh/model-trainer',
-        //   description: 'PredImage is a webapp to predict images. This project was made in 24hrs at DJCSI Hackathon CODESHASTRA 6.0. ',
-        //   stack: ['BOOTSTRAP', 'NODEJS', 'JAVASCRIPT', 'FLASK', 'TENSORFLOW', 'OPENCV', 'KERAS-CNN'],
-        //   image: predimage,
-        //   image1: predimage1,
-        //   images: [predimage2, predimage3],
-
-        //   imageWebP: predimageWebP,
-        //   imageWebP1: predimageWebP1,
-        //   imagesWebP: [predimageWebP2, predimageWebP3],
-
-        //   dataLightbox: 'gallery-predimage',
-        //   type: 'ml/dl',
-        // },
-        // {
-        //   title: 'Spam Message Classification',
-        //   githubLink: 'https://github.com/shahshubh/spam-message-classification',
-        //   description: 'A Spam Detection Filter for Text Messages using NLP and Naive Bayes.',
-        //   stack: ['NUMPY', 'PANDAS', 'SEABORN', 'SCIKIT-LEARN', 'NLP', 'NAIVE-BAYES'],
-        //   image: spam,
-        //   image1: spam1,
-        //   images: [spam2],
-
-        //   imageWebP: spamWebP,
-        //   imageWebP1: spamWebP1,
-        //   imagesWebP: [spamWebP2],
-
-        //   dataLightbox: 'gallery-spam-msg',
-        //   type: 'ml/dl',
-        // },
-        // {
-        //   title: 'Movie Recommender System',
-        //   githubLink: 'https://github.com/shahshubh/Machine-Learning-Projects/tree/master/Movie_recommender_system',
-        //   description: 'A basic movie recommender system. It tells you what movies are most similar to your movie choice.',
-        //   stack: ['NUMPY', 'PANDAS', 'SEABORN'],
-        //   image: movie,
-        //   image1: movie1,
-        //   images: [movie2],
-
-        //   imageWebP: movieWebP,
-        //   imageWebP1: movieWebP1,
-        //   imagesWebP: [movieWebP2],
-
-        //   dataLightbox: 'gallery-movie-recommender',
-        //   type: 'ml/dl',
-        // },
       ],
     };
   }
@@ -323,9 +243,6 @@ class Portfolio extends React.Component {
             <Tab label='Web Developement (3)'>
               <Projects projects={this.state.projects} type='web' />
             </Tab>
-            {/* <Tab label="ML/DL (3)">
-                  <Projects projects={this.state.projects} type="ml/dl" />
-                </Tab> */}
           </Tabs>
         </div>
       </section>

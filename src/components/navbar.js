@@ -131,7 +131,6 @@ class Navbar extends React.Component {
               </li>
               <li className='nav-item'>
                 <div className='nav-link theme-toggler'>
-                  {/* { this.state.isDarkTheme ? <FaSun /> : <FaMoon /> } */}
                   <DarkModeSwitch checked={this.state.isDarkTheme} onChange={this.onThemeChange.bind(this)} size={25} sunColor={null} />
                 </div>
               </li>
